@@ -1,0 +1,22 @@
+Report from 22/Dec/2022:22:22:03 until 24/Aug/2023:03:33:29
+
+TOP 5 IPs
+      4 45.144.0.179
+      2 45.153.227.55
+      2 45.153.227.31
+      2 45.138.145.106
+      2 45.132.51.62
+TOP 5 URLs
+     12 /index.php?option=com_contact&view=contact&id=1
+      1 //index.php?option=com_jce&task=plugin&plugin=imgmanager&file=imgmanager&method=form&cid=20
+      1 //index.php?option=com_fabrik&c=import&view=import&filetype=csv&table=1
+      1 /
+TOP 5 HTTP CODES
+     14 200
+      1 404
+
+Errors
+[Thu Aug 24 09:29:23.490861 2023] [lbmethod_heartbeat:notice] [pid 1518] AH02282: No slotmem from mod_heartmonitor
+[Thu Aug 24 09:29:23.501735 2023] [mpm_prefork:notice] [pid 1518] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Thu Aug 24 09:29:23.501759 2023] [core:notice] [pid 1518] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Aug 24 09:29:40.419604 2023] [autoindex:error] [pid 1520] [client 10.0.2.15:42564] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
